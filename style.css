@@ -54,13 +54,12 @@ h1 {
     left: 1rem;
     top: 50%;
     transform: translateY(-50%);
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     object-fit: contain;
     filter: none;
     opacity: 1;
     image-rendering: crisp-edges;
-    image-rendering: -webkit-optimize-contrast;
 }
 
 input {
