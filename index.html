@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="cityName">Weather App</h1>
+            <form id="searchForm">
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="cityInput" placeholder="Search for a city...">
+                    <button type="submit">Search</button>
+                </div>
+            </form>
+            <p id="error" class="error"></p>
+        </header>
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+        </div>
+
+        <div id="weatherInfo" class="weather-info hidden">
+            <div class="location-info">
+                <div class="location-details">
+                    <p id="region"></p>
+                    <p id="coordinates"></p>
+                    <p id="localTime"></p>
+                </div>
+            </div>
+
+            <div class="main-weather">
+                <div class="weather-icon">
+                    <img id="weatherIcon" alt="Weather condition">
+                    <p id="weatherCondition"></p>
+                </div>
+                <div class="temperature">
+                    <p id="temp"></p>
+                    <p id="lastUpdated" class="last-updated"></p>
+                </div>
+            </div>
+
+            <div class="weather-stats">
+                <div class="stat-card">
+                    <h3>Wind</h3>
+                    <div class="wind-details">
+                        <p id="wind"></p>
+                        <p id="windDir"></p>
+                        <p id="windDegree"></p>
+                        <p id="gustSpeed"></p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <h3>Humidity & Precipitation</h3>
+                    <p id="humidity"></p>
+                    <div class="humidity-bar">
+                        <div id="humidityLevel"></div>
+                    </div>
+                    <div class="precip-details">
+                        <p id="precipitation"></p>
+                        <p id="precipIn"></p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <h3>Atmospheric Conditions</h3>
+                    <div class="atmospheric-details">
+                        <p id="pressure"></p>
+                        <p id="pressureIn"></p>
+                        <p id="visibility"></p>
+                        <p id="visibilityMiles"></p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <h3>Temperature Details</h3>
+                    <div class="temp-details">
+                        <p id="feelsLike"></p>
+                        <p id="feelsLikeF"></p>
+                        <p id="tempF"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="additional-stats">
+                <div class="stat-card">
+                    <h3>UV & Cloud Cover</h3>
+                    <div class="uv-details">
+                        <p id="uvIndex"></p>
+                        <div class="uv-bar">
+                            <div id="uvLevel"></div>
+                        </div>
+                        <p id="cloudCover"></p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <h3>Last Updated</h3>
+                    <div class="update-details">
+                        <p id="lastUpdatedEpoch"></p>
+                        <p id="localTimeEpoch"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
