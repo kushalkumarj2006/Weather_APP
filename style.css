@@ -45,8 +45,9 @@ h1 {
 }
 
 .search-container {
-    backdrop-filter: none !important;
-    opacity: 1 !important;
+    position: relative;
+    max-width: 36rem;
+    margin: 0 auto;
 }
 
 .search-icon {
@@ -54,12 +55,9 @@ h1 {
     left: 1rem;
     top: 50%;
     transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-    filter: none;
-    opacity: 1;
-    image-rendering: crisp-edges;
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    pointer-events: none;
 }
 
 input {
@@ -254,4 +252,4 @@ button:hover {
     .temperature {
         font-size: 4rem;
     }
-}
+    }
