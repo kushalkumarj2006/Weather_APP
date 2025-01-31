@@ -55,7 +55,8 @@ h1 {
     left: 1rem;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 1.25rem;
+    width: 24px;
+    height: 24px;
     color: var(--text-secondary);
     pointer-events: none;
 }
