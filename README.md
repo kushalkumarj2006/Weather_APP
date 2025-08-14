@@ -406,7 +406,7 @@ button:hover {
 ### ⚡ main.js
 
 ```javascript
-const APIKEY = "5d8227f1161e43a189d33628240210";
+const APIKEY = "YOUR_API_KEY_HERE";
 const elements = {
 	form: document.getElementById('searchForm'),
 	cityInput: document.getElementById('cityInput'),
