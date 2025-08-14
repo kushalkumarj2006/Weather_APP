@@ -1,4 +1,3 @@
-const APIKEY = "5d8227f1161e43a189d33628240210";
 const elements = {
 	form: document.getElementById('searchForm'),
 	cityInput: document.getElementById('cityInput'),
