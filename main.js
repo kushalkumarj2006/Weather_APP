@@ -129,3 +129,7 @@ elements.form.addEventListener('submit', (e) => {
 		elements.cityInput.value = '';
 	}
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    fetchWeather('Bangalore');
+});
