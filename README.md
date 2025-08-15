@@ -483,7 +483,7 @@ function getUVDescription(uv) {
 }
 
 function formatTime(epoch) {
-	return new Date(epoch * 1000).toLocaleString();
+    return new Date(epoch * 1000).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
 }
 
 function updateWeatherUI(data) {
@@ -525,8 +525,8 @@ function updateWeatherUI(data) {
 	elements.tempF.textContent = `Temperature: ${Math.round(current.temp_f)}°F`;
 	elements.uvIndex.textContent = `UV Index: ${current.uv}`;
 	elements.cloudCover.textContent = `Cloud Cover: ${current.cloud}%`;
-	elements.lastUpdatedEpoch.textContent = `Last updated epoch: ${current.last_updated_epoch}`;
-	elements.localTimeEpoch.textContent = `Local time epoch: ${location.localtime_epoch}`;
+	elements.lastUpdatedEpoch.textContent = `Last updated: ${formatTime(current.last_updated_epoch)}`;
+    elements.localTimeEpoch.textContent = `Local time: ${formatTime(location.localtime_epoch)}`;
 	elements.uvLevel.style.width = `${current.uv * 10}%`;
 }
 
