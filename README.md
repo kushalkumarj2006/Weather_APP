@@ -33,7 +33,8 @@ Built for the **CloudCtrl Mini Project Challenge** — combines clean UI, useful
 ---
 
 ## 🖼 Screenshots
-*(Add your app screenshots here — full-size and mobile view)*
+<img src='/Screenshot_2025-08-15-15-00-15-12_40deb401b9ffe8e1df2f1cc5ba480b12.jpg' width='200'/>
+<img src='/Screenshot_2025-08-15-15-00-06-76_40deb401b9ffe8e1df2f1cc5ba480b12.jpg' width='200'/>
 
 ---
 
