@@ -9,7 +9,10 @@ Built for the **CloudCtrl Mini Project Challenge** — combines clean UI, useful
 📽 **Watch here:** [Demo Video Link](https://github.com/kushalkumarj2006/Weather_APP/raw/refs/heads/main/Demo.mp4) 
 ## 🌐 Live Demo
 🚀 **Try it here:**
-[![Live Demo](/Screenshot_2025-08-15-15-00-06-76_40deb401b9ffe8e1df2f1cc5ba480b12.jpg)](https://kushalkumarj2006.github.io/Weather_APP/)
+🚀 **Try it here:**
+<a href="https://kushalkumarj2006.github.io/Weather_APP/">
+  <img src="Screenshot_2025-08-15-15-00-06-76_40deb401b9ffe8e1df2f1cc5ba480b12.jpg" width="200"/>
+</a>
 
 ---
 
